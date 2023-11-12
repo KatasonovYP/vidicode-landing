@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 20px;
+    padding: 4px 4px 4px 24px;
+    align-items: center;
+    background-color: var(--passive-1);
+    color: var(--active-1);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo {
+    display: flex;
+}
+
+.header-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.gamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    background: none;
+    border: none;
+}
+
+.line {
+    width: 18px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--active-1);
+}

@@ -1,0 +1,20 @@
+.hide {
+    display: none;
+}
+
+.gamburger-active {
+    width: 100%;
+}
+
+.header-roll {
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    padding: 4px 4px 24px 24px;
+}
+
+.roll {
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
