@@ -19,6 +19,7 @@
 html {
     scrollbar-gutter: stable both-edges;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .page {
@@ -51,5 +52,6 @@ section {
 
 .hero {
     height: calc(100vh - 88px);
+    height: calc(100svh - 88px);
     text-align: center;
 }
