@@ -24,7 +24,7 @@ function onCollapse() {
 function onResize() {
   collapsed = true;
   for (item of agiles) {
-    if (header.clientWidth < 850) {
+    if (header.clientWidth < 950) {
       item.classList.add('hide');
       gamburger.classList.remove('hide');
       headerPanel.classList.add('gamburger-active');
